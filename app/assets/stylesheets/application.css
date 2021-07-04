@@ -52,6 +52,7 @@ header, h1, nav, .list-comment {
  .nav-list-item {
    list-style: none;
    display: inline-block;
+   /*子要素のためdisplay: flex;にできない。*/
    margin: 0 20px;
  }
 
@@ -62,7 +63,9 @@ header, h1, nav, .list-comment {
 
  .list-wrap {
    display: flex;
+   /*HTMLブロックを横並びにすることができます。*/
    flex-wrap: wrap;
+    /*flex-wrap プロパティは、フレックスアイテムを単一行に押し込むか、あるいは複数行に折り返してもよいかを指定します。*/
  }
 
  .list-box {
@@ -75,6 +78,7 @@ header, h1, nav, .list-comment {
  .list-comment {
    width: 200px;
    position: absolute;
+   /*positionプロパティは親要素に「relative」、子要素に「absolute」を指定することで、子要素の位置を親要素の範囲内で指定できるようになります。*/
    left: 0;
    bottom: 0;
  }
@@ -87,6 +91,7 @@ header, h1, nav, .list-comment {
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
+   /*非表示のあふれた内容をどのようにユーザーに知らせるのかを設定します。切り取られるか、省略記号 ('…') を表示するか、独自の文字列を表示するかです。*/
   }
 
 .list-title {
@@ -94,5 +99,7 @@ header, h1, nav, .list-comment {
   font-size: 18px;
   overflow: hidden;
   white-space: nowrap;
+  /*テキストを折り返し表示させないようにするプロパティ*/
   text-overflow: ellipsis;
+  /*領域をはみ出したテキストを三点リーダー（...）で省略表示するプロパティ*/
 }
