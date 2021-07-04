@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # 文字列をfreezeさせています。
 # freezeとはオブジェクトの破壊的な変更ができなくなります。
 

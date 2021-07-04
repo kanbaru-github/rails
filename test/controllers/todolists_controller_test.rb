@@ -5,5 +5,4 @@ class TodolistsControllerTest < ActionDispatch::IntegrationTest
     get todolists_new_url
     assert_response :success
   end
-
 end

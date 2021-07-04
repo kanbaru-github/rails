@@ -64,5 +64,4 @@ RSpec.configure do |config|
 
   config.include FactoryBot::Syntax::Methods
   # letを使用したときに、FactoryBotが使用できるように設定しましょう。
-
 end
