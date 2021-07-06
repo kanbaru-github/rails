@@ -29,3 +29,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/.env
+; Gitの管理下に置きたくないファイルやフォルダは.gitignoreファイルを利用して設定

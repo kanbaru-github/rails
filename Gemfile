@@ -65,5 +65,5 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 
 gem 'dotenv-rails'
-# 環境変数を管理することができるgem
+# 環境変数を管理することができるgem。
 # Gemfileでメモするときにコピーするとエラーになる
